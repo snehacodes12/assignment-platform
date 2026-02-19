@@ -29,7 +29,7 @@ function App() {
 
   const submitAssignment = async () => {
     try {
-      const res = await fetch("http://127.0.0.1:8000/submit-assignment", {
+      const res = await fetch("https://assignment-platform-1.onrender.com/submit-assignment", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
