@@ -15,6 +15,12 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+@app.get("/")
+def root():
+    return {
+        "message": "Assignment Platform Backend is running",
+        "docs": "/docs"
+    }
 
 class CreateAssignmentRequest(BaseModel):
     title: str
