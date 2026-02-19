@@ -101,3 +101,6 @@ Sneha Codes
 Live URL: https://assignment-platform-jmbf-j32a35qa1.vercel.app
 
 The frontend is built using Vite + React and deployed on Vercel.
+
+Backend: https://assignment-platform-1.onrender.com
+API Docs: https://assignment-platform-1.onrender.com/docs
